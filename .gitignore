@@ -1,0 +1,14 @@
+config/*.yaml
+config.yaml
+log.main
+!config/*.example.*
+!/%config/*.yaml
+!/%config/*.example.*
+
+*.pyc
+*.pem
+__pycache__/
+
+.venv
+
+*.swp

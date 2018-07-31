@@ -1,0 +1,5 @@
+listen: localhost:45544
+
+log:
+  level: DEBUG
+  format: "%(asctime)s %(module)24s %(levelname)8s: [%(funcName)24s:%(lineno)3s] \n\t%(message)s\n"
